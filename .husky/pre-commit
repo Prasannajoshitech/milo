@@ -1,0 +1,8 @@
+
+echo "Checking formatting with Prettier..."
+npx prettier . --write
+
+echo "Running ESLint to block console.log..."
+npx eslint . --max-warnings=0
+
+echo "All checks passed. Proceeding with commit..."

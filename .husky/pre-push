@@ -1,0 +1,4 @@
+
+
+echo "Prettier passed. Running build..."
+npm run build
